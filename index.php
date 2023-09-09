@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapa</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" crossorigin="" />
+    
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" crossorigin=""></script>
 
+    <!--Referencia de incones-->
+    
     <!--API Maps JavaScript inline-->
+    
     <script async src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
     </script>
 
     <!--GeodJson rodovias estaduais-->
+
     <script src="./GeoJson/rodoviasEstaduais/rodEstAltoAlegre.geojson"></script>
     <script src="./GeoJson/rodoviasEstaduais/rodEstAmajari.geojson"></script>
     <script src="./GeoJson/rodoviasEstaduais/rodEstBoaVista.geojson"></script>
@@ -39,9 +44,8 @@
     <script src="./GeoJson/rodoviasFederais/rodFedSJBaliza.geojson"></script>
     <script src="./GeoJson/rodoviasFederais/rodFedSLAnaua.geojson"></script>
 
-    
-
     <!--GeodJson rodovias municipais-->
+    
     <script src="./GeoJson/rodoviasVicMunicipais/rodVicMunAltoAlegre.geojson"></script>
     <script src="./GeoJson/rodoviasVicMunicipais/rodVicMunAmajari.geojson"></script>
     <script src="./GeoJson/rodoviasVicMunicipais/rodVicMunBoaVista.geojson"></script>
@@ -75,11 +79,14 @@
     <script src="./GeoJson/municipios/slAnaua.geojson"></script>
     <script src="./GeoJson/municipios/uiramuta.geojson"></script>
 
+    <!--GeoJson de Pontes-->
+
+    <script src="./GeoJson/pontes/pontesMadeira.geojson"></script>
+    <script src="./GeoJson/pontes/pontesConcreto.geojson"></script>
 
     <!--Biblioteca Leaflet-->
     <link rel="stylesheet" href="./Leaflet/leaflet.groupedlayercontrol.css">
     <script src="./Leaflet/leaflet.groupedlayercontrol.js"></script>
-
 
     <style>
     #mapDIV {
@@ -99,6 +106,7 @@
     <script src="./GeoJson/rodoviasFederais/codigosFed/rodFederais.js"></script>
     <script src="./GeoJson/rodoviasVicMunicipais/codigosMun/rodMunicipais.js"></script>
     <script src="./GeoJson/municipios/codigos/municipios.js"></script>
+    <script src="./GeoJson/pontes/codigos/pontes.js"></script>
     <script src="./mapa.js"></script>
  
    
